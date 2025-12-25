@@ -14,7 +14,7 @@ public class Main {
 
         System.out.print("Patient ID: ");
         int patientId = scan.nextInt();
-        scan.nextLine(); // Consume leftover newline
+        scan.nextLine();
 
         System.out.print("Patient Name: ");
         String patientName = scan.nextLine();
@@ -46,10 +46,11 @@ public class Main {
         // About Medical Record
 
         MedicalRecord record1 = new MedicalRecord("01", 1000.2);
-        record1.setHasInsurance(true); // setter automatically updates discount
+        record1.setHasInsurance(true);
         record1.setNotes("Routine check-up");
 
         System.out.println("Notes: " + record1.getNotes());
         System.out.println(record1.toString());
+        System.out.println(pat1.getPatientName());
     }
 }

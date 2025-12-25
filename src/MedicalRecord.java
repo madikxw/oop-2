@@ -5,13 +5,13 @@ public class MedicalRecord {
     private String discount;
     private String notes;
 
-    // Constructor
+
     public MedicalRecord(String recordId, double price) {
         this.recordId = recordId;
         this.price = price;
     }
 
-    // Getter and Setter for recordId
+
     public String getRecordId() {
         return recordId;
     }
@@ -20,14 +20,14 @@ public class MedicalRecord {
         this.recordId = recordId;
     }
 
-    // Getter and Setter for hasInsurance
+
     public boolean isHasInsurance() {
         return hasInsurance;
     }
 
     public void setHasInsurance(boolean hasInsurance) {
         this.hasInsurance = hasInsurance;
-        calculateDiscount(); // Automatically update discount when insurance changes
+        calculateDiscount();
     }
 
 
