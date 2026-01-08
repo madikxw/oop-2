@@ -17,8 +17,14 @@ public class Appointment {
         return "General Appointment";
     }
     public int getPriority() {
-        return 1; // normal priority
+        return 1;  //lowest
     }
+
+    public void performAppointment() {
+        System.out.println("Performing a general appointment.");
+    }
+
+
 
 
 
