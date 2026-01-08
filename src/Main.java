@@ -123,7 +123,7 @@ public class Main {
         System.out.println("Patient Age:");
         int patient_age = scan.nextInt();
         scan.nextLine();
-        System.out.print("Patient Disease: ");
+        System.out.print("Patient Disease:");
         String patientDisease = scan.nextLine();
 
         System.out.print("Does he/her has insurance? (yes/no): ");

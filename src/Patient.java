@@ -13,7 +13,7 @@ public class Patient {
         this.patientId = patientId;
         this.patientName = patientName;
         this.patient_age = patient_age;
-        this.patientDisease  = this.patientDisease;
+        this.patientDisease  = patientDisease;
         this.hasInsurance = hasInsurance;
 
     }
